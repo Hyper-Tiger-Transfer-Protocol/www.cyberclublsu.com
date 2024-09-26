@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Society of LSU</title>
+    <link>http://ssl.cshortt.com/</link>
+    <description>Recent content on Security Society of LSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://ssl.cshortt.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://ssl.cshortt.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ssl.cshortt.com/about/</guid>
+      <description>Officers President: Cam Shortt Vice President: Ronald Gibson Secretary: Logan</description>
+    </item>
+    
+    <item>
+      <title>Example CTF</title>
+      <link>http://ssl.cshortt.com/ctf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ssl.cshortt.com/ctf/</guid>
+      <description> Incompatible Browser D: </description>
+    </item>
+    
+  </channel>
+</rss>
