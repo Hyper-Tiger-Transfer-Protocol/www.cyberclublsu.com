@@ -47,13 +47,26 @@
 
 <div class="row-fluid navmargin">
     <div class="page-header">
-        <h1>Example CTF - Mon, Jan 1, 0001</h1>
+        <h1>Task 0 - Find the Flag - Mon, Jan 1, 0001</h1>
     </div>
     <p class="lead">Easier than snot</p>
-    <link href="/ctf/vm/vm.css" rel="stylesheet"/>
-<div id="virt">
-    <iframe src="/ctf/vm/vm.html?url=task0.cfg&cpu=x86" onload="resize(this);">Incompatible Browser D:</iframe>
+    <p>Use your knowledge of Linux to find the contents of "flag"</p>
+<div class="mouseover">
+    <table>
+        <tr>
+            <td>Hint (Mouseover)</td>
+            <td class="content">Look in root</td>
+        </tr>
+    </table>
 </div>
+<link href="/ctf/vm/vm.css" rel="stylesheet"/>
+<script src="/ctf/vm/task0.js"></script>
+<div id="virt">
+    <iframe src="/ctf/vm/vm.html?url=task0.cfg&cpu=x86">Incompatible Browser D:</iframe>
+</div>
+<h1 id="status"></h1>
+<textarea id="flag">Type flag here</textarea>
+<button onclick="submit();">Submit</button>
 
     <h4><a href="http://ssl.cshortt.com">Back to Home</a></h4>
 </div>

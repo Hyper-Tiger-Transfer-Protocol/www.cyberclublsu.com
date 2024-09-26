@@ -12,3 +12,17 @@ iframe {
 	height: 100%;
 	border: none;
 }
+#status {
+	font-size: 80pt;
+	line-height: 100pt;
+}
+.content {
+	display: none;
+}
+.mouseover:hover .content {
+	display: block;
+}
+td {
+	padding-left: 32px;
+	padding-right: 100px;
+}
