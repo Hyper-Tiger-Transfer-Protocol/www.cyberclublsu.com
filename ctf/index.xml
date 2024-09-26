@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security Society of LSU</title>
-    <link>http://ssl.cshortt.com/</link>
-    <description>Recent content on Security Society of LSU</description>
+    <title>Hacking Challenges on Security Society of LSU</title>
+    <link>http://ssl.cshortt.com/ctf/</link>
+    <description>Recent content in Hacking Challenges on Security Society of LSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://ssl.cshortt.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://ssl.cshortt.com/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task 0 - Find the Flag</title>
       <link>http://ssl.cshortt.com/ctf/task0/</link>
@@ -15,15 +15,6 @@
       <guid>http://ssl.cshortt.com/ctf/task0/</guid>
       <description>Use your knowledge of Linux to find the contents of &#34;flag&#34;
 Hint (Mouseover) Look in root Incompatible Browser D: Type flag here Submit </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://ssl.cshortt.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ssl.cshortt.com/about/</guid>
-      <description>Officers President: Cam Shortt Vice President: Ronald Gibson Secretary: Logan</description>
     </item>
     
   </channel>

@@ -5,6 +5,16 @@
     <link>http://ssl.cshortt.com/tags/</link>
     <description>Recent content in Tags on Security Society of LSU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://ssl.cshortt.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://ssl.cshortt.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>http://ssl.cshortt.com/tags/linux/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://ssl.cshortt.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
