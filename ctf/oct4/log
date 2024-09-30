@@ -5,7 +5,7 @@ Note: Output may appear different
 /root # nc 127.0.0.1 1337
 passwd
 ^D^C
-[1]+ Stopped (tty input)        mwah
+[1]+ Stopped (tty input)        evil
 /root # fg
-mwah
+evil
 ^D
