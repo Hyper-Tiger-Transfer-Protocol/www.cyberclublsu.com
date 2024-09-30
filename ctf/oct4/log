@@ -1,11 +1,11 @@
 
 Note: Output may appear different
 
-/root # sh mwah.sh &
+/root # ./mwah &
 /root # nc 127.0.0.1 1337
 passwd
 ^D^C
-[1]+ Stopped (tty input)        sh mwah.sh
+[1]+ Stopped (tty input)        mwah
 /root # fg
-sh mwah.sh
+mwah
 ^D
