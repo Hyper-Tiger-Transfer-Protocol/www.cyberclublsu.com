@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>Task 1 - Lost Flag</title>
+      <title>Halloween Day 1 - Lost Flag</title>
       <link>https://www.cyberclublsu.com/ctf/oct1/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
@@ -28,7 +28,7 @@ Hint 1 Remember dotfiles? Hint 2 Less encrypted, more converted to a different b
     </item>
     
     <item>
-      <title>Task 2 - Backup Fail</title>
+      <title>Halloween Day 2 - Backup Fail</title>
       <link>https://www.cyberclublsu.com/ctf/oct2/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
@@ -39,7 +39,7 @@ Hint 1 check /mnt Hint 2 .tar files are plaintext Incompatible Browser D: Type f
     </item>
     
     <item>
-      <title>Task 3 - Badly Lost Flag</title>
+      <title>Halloween Day 3 - Badly Lost Flag</title>
       <link>https://www.cyberclublsu.com/ctf/oct3/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
@@ -50,7 +50,7 @@ Hint 1 dd if=/dev/vda Hint 2 Only confusing if you&#39;re not Roman Incompatible
     </item>
     
     <item>
-      <title>Task 4 - Ransomware!</title>
+      <title>Halloween Day 4 - Ransomware!</title>
       <link>https://www.cyberclublsu.com/ctf/oct4/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
