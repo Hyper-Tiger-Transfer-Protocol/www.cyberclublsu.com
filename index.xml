@@ -6,20 +6,11 @@
     <description>Recent content on Security Society at LSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cyberclublsu.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://www.cyberclublsu.com/about/</link>
-      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.cyberclublsu.com/about/</guid>
-      <description>Officers President: Cam Shortt Vice President: Ronald Gibson Secretary: Logan </description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cyberclublsu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Halloween Day 1 - Lost Flag</title>
       <link>https://www.cyberclublsu.com/ctf/oct1/</link>
-      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.cyberclublsu.com/ctf/oct1/</guid>
       <description>While we were we sleeping an evil entity stole and encrypted our flag! Can you get it back?
@@ -28,36 +19,12 @@ Hint 1 Remember dotfiles? Hint 2 Less encrypted, more converted to a different b
     </item>
     
     <item>
-      <title>Halloween Day 2 - Backup Fail</title>
-      <link>https://www.cyberclublsu.com/ctf/oct2/</link>
-      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>https://www.cyberclublsu.com/about/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cyberclublsu.com/ctf/oct2/</guid>
-      <description>So after an super embarrassing flag heist we decided backups were maybe a good idea, but the evil entity came back and destroyed our backup program and the flag! Can you recover it please?
-Mouseover the appropriate line for hints. Highlight and right click to copy, and right click on cursor to paste.
-Hint 1 check /mnt Hint 2 .tar files are plaintext Incompatible Browser D: Type flag here Submit </description>
-    </item>
-    
-    <item>
-      <title>Halloween Day 3 - Badly Lost Flag</title>
-      <link>https://www.cyberclublsu.com/ctf/oct3/</link>
-      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.cyberclublsu.com/ctf/oct3/</guid>
-      <description>The evil entity stole our flag again, and this time they actually encrypted it super well and we have absolutely no idea where it went! (we even checked for a hidden file this time) Can you help us get it back again?
-Mouseover the appropriate line for hints. Highlight and right click to copy, and right click on cursor to paste.
-Hint 1 dd if=/dev/vda Hint 2 Only confusing if you&#39;re not Roman Incompatible Browser D: Type flag here Submit </description>
-    </item>
-    
-    <item>
-      <title>Halloween Day 4 - Ransomware!</title>
-      <link>https://www.cyberclublsu.com/ctf/oct4/</link>
-      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.cyberclublsu.com/ctf/oct4/</guid>
-      <description>Darn it! The evil entity encrypted our flag and wants tons of money for the password.
-We figured out that evil is a shell script that reads a password on a TCP port, but then we got bored and figured you can do the rest. (it&amp;rsquo;s not that bad, you can take a look at it for us right?)
-Can you get our flag so we don&amp;rsquo;t have to pay out?</description>
+      <guid>https://www.cyberclublsu.com/about/</guid>
+      <description>Officers President: Cam Shortt Vice President: Ronald Gibson Secretary: Logan </description>
     </item>
     
     <item>
