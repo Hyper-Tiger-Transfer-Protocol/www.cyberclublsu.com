@@ -16,6 +16,9 @@ iframe {
 	font-size: 80pt;
 	line-height: 100pt;
 }
+#result {
+	visibility: hidden;
+}
 .content {
 	display: none;
 }
