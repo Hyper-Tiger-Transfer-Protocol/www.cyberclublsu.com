@@ -6,7 +6,18 @@
     <description>Recent content on Security Society at LSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cyberclublsu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cyberclublsu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Halloween Day 3 - Badly Lost Flag</title>
+      <link>https://www.cyberclublsu.com/ctf/oct3/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cyberclublsu.com/ctf/oct3/</guid>
+      <description>The evil entity stole our flag again, and this time they actually encrypted it super well and we have absolutely no idea where it went! (we even checked for a hidden file this time) Can you help us get it back again?
+Mouseover the appropriate line for hints. Highlight and right click to copy, and right click on cursor to paste.
+Hint 1 dd if=/dev/vda Hint 2 Only confusing if you&#39;re not Roman Incompatible Browser D: &lt; Record your Progress Type flag here Submit </description>
+    </item>
+    
     <item>
       <title>Halloween Day 2 - Backup Fail</title>
       <link>https://www.cyberclublsu.com/ctf/oct2/</link>
