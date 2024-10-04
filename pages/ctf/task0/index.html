@@ -6,39 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#000084" />
-    <link rel="icon" href="https://www.cyberclublsu.com/favicon.ico">
+    <link rel="icon" href="/img/icons/favicon.ico">
     <link rel="canonical" href="https://www.cyberclublsu.com">
-    
-    
+
+
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="https://www.cyberclublsu.com">Security Society at LSU</a>
+            <a class="brand" href="/">Security Society at LSU</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    
-                    
-                        
+
+
+
                             <li>
-                                <a href="/about/">
-                                    
+                                <a href="/pages/about/">
+
                                     <span>About</span>
                                 </a>
                             </li>
-                        
-                    
-                        
+
+
+
                             <li>
-                                <a href="/ctf/">
-                                    
+                                <a href="/pages/ctf/">
+
                                     <span>Challenges</span>
                                 </a>
                             </li>
-                        
-                    
+
+
                 </ul>
             </div>
         </div>
@@ -47,86 +47,51 @@
 
 <div class="row-fluid navmargin">
     <div class="page-header">
-        <h1>Halloween Day 4 - Ransomware! - Fri, Oct 4, 2024</h1>
+        <h1>Task 0 - Find the Flag - Thu, Sep 26, 2024</h1>
     </div>
-    <p class="lead">Now our flag is being extorted!</p>
-    <p>Darn it! The evil entity encrypted our flag and wants tons of money for the password.</p>
-<p>We figured out that <code>evil</code> is a shell script that reads a password on a TCP port, but then we got bored and figured you can do the rest. (it&rsquo;s not that bad, you can take a look at it for us right?)</p>
-<p>Can you get our flag so we don&rsquo;t have to pay out?</p>
-<p>Mouseover the appropriate line for hints.  Highlight and right click to copy, and right click on cursor to paste.</p>
+    <p class="lead">Easier than snot</p>
+    <p>Use your knowledge of Linux to find the contents of "flag"</p>
 <div class="mouseover">
     <table>
         <tr>
-            <td>Hint 1</td>
-            <td class="content">use <code>command &</code> to background a command and <code>fg</code> to focus it</td>
+            <td>Hint (Mouseover)</td>
+            <td class="content">Look in root</td>
         </tr>
     </table>
 </div>
-<div class="mouseover">
-    <table>
-        <tr>
-            <td>Hint 2</td>
-            <td class="content">netcat :)</td>
-        </tr>
-    </table>
-</div>
-<div class="mouseover">
-    <table>
-        <tr>
-            <td>Hint 3</td>
-            <td class="content">They're so l33t they use 1337th most common password</td>
-        </tr>
-    </table>
-</div>
-<div class="mouseover">
-    <table>
-        <tr>
-            <td>Hint 4</td>
-            <td class="content">netcat can be finicky sometimes, try ending input with ^D^C</td>
-        </tr>
-    </table>
-</div>
-<div class="mouseover">
-    <table>
-        <tr>
-            <td>Hint 5</td>
-            <td class="content">see above, use <a href="log">this</a> if you're super stuck (WARNING: MAJOR SPOILERS)</td>
-        </tr>
-    </table>
-</div>
-<link href="/ctf/vm/vm.css" rel="stylesheet"/>
-<script src="/ctf/vm/oct4.js"></script>
+<link href="/css/vm.css" rel="stylesheet"/>
+<script src="/pages/ctf/vm/task0.js"></script>
 <div id="virt">
-    <iframe src="/ctf/vm/vm.html?url=oct4.cfg&cpu=x86">Incompatible Browser D:</iframe>
+    <iframe src="/pages/ctf/vm/vm.html?url=task0.cfg&cpu=x86">Incompatible Browser D:</iframe>
 </div>
 <table id="result" style="visibility=hidden"><tr>
     <td><h1 id="status"></h1></td>
-	<td id="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2U40kd2YZ1z-lAdet2ltbJ9bmWXi3YtVB7yn4RoGj66pP7w/viewform">Record your Progress</a></td>
+    <td id="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2U40kd2YZ1z-lAdet2ltbJ9bmWXi3YtVB7yn4RoGj66pP7w/viewform">Record your Progress</a>
 </table>
 <textarea id="flag">Type flag here</textarea>
 <button onclick="submit();">Submit</button>
 
-    <h4><a href="https://www.cyberclublsu.com">Back to Home</a></h4>
+    <h4><a href="/">Back to Home</a></h4>
 </div>
 
 
         </div><footer class="container">
     <hr class="soften">
     <p>
-&copy; 
+&copy;
 
-    
+
 
 <span id="thisyear">2024</span>
 
 
 </p>
     <p class="text-center">
-        
-        
-        
-        <a href="https://github.com/Hyper-Tiger-Transfer-Protocol">GitHub</a> 
-        
+
+
+
+        <a href="https://github.com/Hyper-Tiger-Transfer-Protocol">GitHub</a>
+
     </p>
 </footer>
 
@@ -150,13 +115,13 @@
 <script src="/js/bootstrap-typeahead.js"></script>
 <script src="/js/bootstrap-affix.js"></script>
 <script>
-    _386 = { 
+    _386 = {
         fastLoad: true ,
-        onePass: null , 
-        speedFactor: null 
+        onePass: null ,
+        speedFactor: null
     };
 
-    
+
     function ThisYear() {
         document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };

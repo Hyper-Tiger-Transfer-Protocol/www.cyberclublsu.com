@@ -3,7 +3,7 @@
 	height: 720px;
 	overflow-y: auto;
 	overflow-x: auto;
-	resize: both;
+	resize: none;
 	position: relative;
 	z-index: 2;
 }
