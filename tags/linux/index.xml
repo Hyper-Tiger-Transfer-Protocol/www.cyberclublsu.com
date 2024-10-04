@@ -6,7 +6,18 @@
     <description>Recent content in Linux on Security Society at LSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cyberclublsu.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cyberclublsu.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Halloween Day 4 - Ransomware!</title>
+      <link>https://www.cyberclublsu.com/ctf/oct4/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cyberclublsu.com/ctf/oct4/</guid>
+      <description>Darn it! The evil entity encrypted our flag and wants tons of money for the password.
+We figured out that evil is a shell script that reads a password on a TCP port, but then we got bored and figured you can do the rest. (it&amp;rsquo;s not that bad, you can take a look at it for us right?)
+Can you get our flag so we don&amp;rsquo;t have to pay out?</description>
+    </item>
+    
     <item>
       <title>Halloween Day 3 - Badly Lost Flag</title>
       <link>https://www.cyberclublsu.com/ctf/oct3/</link>
