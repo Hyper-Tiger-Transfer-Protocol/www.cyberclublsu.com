@@ -1,89 +1,45 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <title>Security Society at LSU</title>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="theme-color" content="#000084" />
-    <link rel="icon" href="/img/icons/favicon.ico">
-    <link rel="canonical" href="https://www.cyberclublsu.com">
+<html lang="en">
+    <head>
+        <title>Security Society at LSU</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="theme-color" content="#000084" />
+        <link rel="icon" href="/assets/icons/favicon.ico">
+        <link rel="canonical" href="https://www.cyberclublsu.com">
 
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div id="header"></div>
 
-</head>
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="/">Security Society at LSU</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-
-
-
-                            <li>
-                                <a href="/pages/about/">
-
-                                    <span>About</span>
-                                </a>
-                            </li>
-
-
-
-                            <li>
-                                <a href="/pages/ctf/">
-
-                                    <span>Challenges</span>
-                                </a>
-                            </li>
-
-
-                </ul>
-            </div>
+        <div id="content" class="container">
+            <article class="row-fluid navmargin">
+                <header class="page-header">
+                    <h1>Intro</h1>
+                </header>
+            </article>
+            
+            <div id="challengeLinks"></div>
         </div>
-    </div>
-</nav><div id="content" class="container">
-<article class="row-fluid navmargin">
-    <header class="page-header">
-        <h1>Intro</h1>
-    </header>
 
+        <div id="footer"></div>
 
-</article>
-<ul>
+    </body>
 
+<!-- Components --->
+<script src="/js/components/header.js"></script>
+<script src="/js/components/footer.js"></script>
+<script src="/js/components/challengeLinks.js"></script>
+<script src="/js/components/ChallengeLinkRemovers/linkRemover.js"></script>
+<script>Remover("halloween")</script>
 
-    <li>
-        <a href="/pages/ctf/task0/">2024-09-26 | Task 0 - Find the Flag</a>
-    </li>
-
-</ul>
-
-        </div><footer class="container">
-    <hr class="soften">
-    <p>
-&copy;
-
-
-
-<span id="thisyear">2024</span>
-
-
-</p>
-    <p class="text-center">
-
-
-
-        <a href="https://github.com/Hyper-Tiger-Transfer-Protocol">GitHub</a>
-
-    </p>
-</footer>
-
-</body><link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="/css/style.css">
-
+<!-- BootStrap --->
 <script src="/js/jquery.js"></script>
 <script src="/js/bootstrap-386.js"></script>
 <script src="/js/bootstrap-transition.js"></script>
@@ -104,11 +60,6 @@
         fastLoad: true ,
         onePass: null ,
         speedFactor: null
-    };
-
-
-    function ThisYear() {
-        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };
 </script>
 </html>

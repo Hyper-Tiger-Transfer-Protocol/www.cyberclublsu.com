@@ -6,99 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#000084" />
-    <link rel="icon" href="/img/icons/favicon.ico">
+    <link rel="icon" href="/assets/icons/favicon.ico">
     <link rel="canonical" href="https://www.cyberclublsu.com">
 
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/vm.css">
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="/">Security Society at LSU</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
+    <div id="header"></div>
 
-
-
-                            <li>
-                                <a href="/pages/about/">
-
-                                    <span>About</span>
-                                </a>
-                            </li>
-
-
-
-                            <li>
-                                <a href="/pages/ctf/">
-
-                                    <span>Challenges</span>
-                                </a>
-                            </li>
-
-
-                </ul>
+    <div id="content" class="container">
+        <div class="row-fluid navmargin">
+            <div class="page-header">
+                <h1>Task 0 - Find the Flag - Thu, Sep 26, 2024</h1>
             </div>
+            <p class="lead">Easier than snot</p>
+            <p>
+                Use your knowledge of Linux to find the contents of "flag"
+            </p>
+            <p>
+                Mouseover the appropriate line for hints.  Highlight and right click to copy,
+                and right click on cursor to paste.
+            </p>
+            
+            <div class="mouseover">
+                <table>
+                    <tr>
+                        <td>Hint (Mouseover)</td>
+                        <td class="content">Look in root</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="virt">
+                <iframe src="/pages/ctf/vm/vm.html?url=task0.cfg&cpu=x86">Incompatible Browser D:</iframe>
+            </div>
+
+            <table id="result" style="visibility=hidden">
+                <tr>
+                    <td>
+                        <h1 id="status"></h1>
+                    </td>
+                    <td id="link">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2U40kd2YZ1z-lAdet2ltbJ9bmWXi3YtVB7yn4RoGj66pP7w/viewform">
+                            Record your Progress
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <textarea id="flag" placeholder="Type flag here"></textarea>
+            <button onclick="submit();">Submit</button>
+            <h4><a href="/">Back to Home</a></h4>
         </div>
     </div>
-</nav><div id="content" class="container">
 
-<div class="row-fluid navmargin">
-    <div class="page-header">
-        <h1>Task 0 - Find the Flag - Thu, Sep 26, 2024</h1>
-    </div>
-    <p class="lead">Easier than snot</p>
-    <p>Use your knowledge of Linux to find the contents of "flag"</p>
-<div class="mouseover">
-    <table>
-        <tr>
-            <td>Hint (Mouseover)</td>
-            <td class="content">Look in root</td>
-        </tr>
-    </table>
-</div>
-<link href="/css/vm.css" rel="stylesheet"/>
+    <div id="footer"></div>
+
+</body>
+
+<!-- Challenge -->
 <script src="/pages/ctf/vm/task0.js"></script>
-<div id="virt">
-    <iframe src="/pages/ctf/vm/vm.html?url=task0.cfg&cpu=x86">Incompatible Browser D:</iframe>
-</div>
-<table id="result" style="visibility=hidden"><tr>
-    <td><h1 id="status"></h1></td>
-    <td id="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2U40kd2YZ1z-lAdet2ltbJ9bmWXi3YtVB7yn4RoGj66pP7w/viewform">Record your Progress</a>
-</table>
-<textarea id="flag">Type flag here</textarea>
-<button onclick="submit();">Submit</button>
 
-    <h4><a href="/">Back to Home</a></h4>
-</div>
+<!-- Components --->
+<script src="/js/components/header.js"></script>
+<script src="/js/components/footer.js"></script>
 
-
-        </div><footer class="container">
-    <hr class="soften">
-    <p>
-&copy;
-
-
-
-<span id="thisyear">2024</span>
-
-
-</p>
-    <p class="text-center">
-
-
-
-        <a href="https://github.com/Hyper-Tiger-Transfer-Protocol">GitHub</a>
-
-    </p>
-</footer>
-
-</body><link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="/css/style.css">
-
+<!-- BootStrap --->
 <script src="/js/jquery.js"></script>
 <script src="/js/bootstrap-386.js"></script>
 <script src="/js/bootstrap-transition.js"></script>
@@ -119,11 +96,6 @@
         fastLoad: true ,
         onePass: null ,
         speedFactor: null
-    };
-
-
-    function ThisYear() {
-        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };
 </script>
 </html>

@@ -1,105 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <title>Security Society at LSU</title>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="theme-color" content="#000084" />
-    <link rel="icon" href="https://www.cyberclublsu.com/favicon.ico">
-    <link rel="canonical" href="https://www.cyberclublsu.com">
-    
-    
-</head>
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="https://www.cyberclublsu.com">Security Society at LSU</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    
-                    
-                        
-                            <li>
-                                <a href="/about/">
-                                    
-                                    <span>About</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="/ctf/">
-                                    
-                                    <span>Challenges</span>
-                                </a>
-                            </li>
-                        
-                    
-                </ul>
-            </div>
+<html lang="en">
+    <head>
+        <title>Security Society at LSU</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="theme-color" content="#000084" />
+        <link rel="icon" href="/assets/icons/favicon.ico">
+        <link rel="canonical" href="https://www.cyberclublsu.com">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div id="header"></div>
+
+        <div id="content" class="container">
+            <article class="row-fluid navmargin">
+                <header class="page-header">
+                    <h1>Linux</h1>
+                </header>
+            </article>
+            <div id="challengeLinks"></div>
         </div>
-    </div>
-</nav><div id="content" class="container">
-<article class="row-fluid navmargin">
-    <header class="page-header">
-        <h1>Linux</h1>
-    </header>
-    
-    
-</article>
-<ul>
 
+        <div id="footer"></div>
 
-    <li>
-        <a href="/ctf/oct4/">2024-10-04 | Halloween Day 4 - Ransomware!</a>
-    </li>
+    </body>
 
-    <li>
-        <a href="/ctf/oct3/">2024-10-03 | Halloween Day 3 - Badly Lost Flag</a>
-    </li>
+<!-- Components --->
+<script src="/js/components/header.js"></script>
+<script src="/js/components/footer.js"></script>
+<script src="/js/components/challengeLinks.js"></script>
 
-    <li>
-        <a href="/ctf/oct2/">2024-10-02 | Halloween Day 2 - Backup Fail</a>
-    </li>
-
-    <li>
-        <a href="/ctf/oct1/">2024-10-01 | Halloween Day 1 - Lost Flag</a>
-    </li>
-
-    <li>
-        <a href="/ctf/task0/">2024-09-26 | Task 0 - Find the Flag</a>
-    </li>
-
-</ul>
-
-        </div><footer class="container">
-    <hr class="soften">
-    <p>
-&copy; 
-
-    
-
-<span id="thisyear">2024</span>
-
-
-</p>
-    <p class="text-center">
-        
-        
-        
-        <a href="https://github.com/Hyper-Tiger-Transfer-Protocol">GitHub</a> 
-        
-    </p>
-</footer>
-
-</body><link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="/css/style.css">
-
+<!-- BootStrap --->
 <script src="/js/jquery.js"></script>
 <script src="/js/bootstrap-386.js"></script>
 <script src="/js/bootstrap-transition.js"></script>
@@ -116,15 +53,10 @@
 <script src="/js/bootstrap-typeahead.js"></script>
 <script src="/js/bootstrap-affix.js"></script>
 <script>
-    _386 = { 
+    _386 = {
         fastLoad: true ,
-        onePass: null , 
-        speedFactor: null 
-    };
-
-    
-    function ThisYear() {
-        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+        onePass: null ,
+        speedFactor: null
     };
 </script>
 </html>

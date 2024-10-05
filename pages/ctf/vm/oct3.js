@@ -1,6 +1,6 @@
 function submit() {
 	var flag = document.getElementById("flag").value;
-	if (flag === "ssl{fda86643}") {
+	if (flag === "ssl{8b01d358}") {
 		document.getElementById("status").innerHTML = "Success!";
 		document.getElementById("result").style.visibility = "visible";
 		document.getElementById("link").style.visibility = "visible";

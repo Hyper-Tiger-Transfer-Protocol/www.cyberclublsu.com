@@ -8,6 +8,10 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+textarea{
+  resize: none;
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -234,7 +238,7 @@ body {
   font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 18px;
   line-height: 20px;
-  color: #bbbbbb;
+  color: #cfcfcf;
   background-color: #000084;
 }
 
