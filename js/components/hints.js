@@ -1,6 +1,8 @@
-async function Hints(challenge){
-	const hintList = await fetch(`/js/hints/${challenge}.json`).then(response => response.json())
+async function Hints(){
+	var challenge = get_params()["challenge"];
 
+	var hintList = await fetch("/js/json/hints.json").then(response => response.json());
+	hintList = hintList[challenge];
 	var parent = document.getElementById("hints");
 
 	for(var i = 1; i <= hintList.length; i++){
@@ -25,4 +27,6 @@ async function Hints(challenge){
 			parent.appendChild(hoverDiv);
 	}
 }
+
+Hints();
 

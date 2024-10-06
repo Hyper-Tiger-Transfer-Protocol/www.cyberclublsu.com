@@ -14,57 +14,27 @@
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/bootstrap-responsive.css">
         <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/vm.css">
+        <link rel="stylesheet" href="/css/vm.css"/>
     </head>
     <body>
         <div id="header"></div>
 
         <div id="content" class="container">
             <div class="row-fluid navmargin">
-                <div class="page-header">
-                    <h1>Halloween Day 4 - Ransomware! - Fri, Oct 4, 2024</h1>
-                </div>
-                <p class="lead">Now our flag is being extorted!</p>
+
+                <div id="taskDescription"></div>
+
                 <p>
-                    Darn it! The evil entity encrypted our flag and
-                    wants tons of money for the password.
-                </p>
-                <p>
-                    We figured out that <code>evil</code> is a shell script
-                    that reads a password on a TCP port, but then we got bored
-                    and figured you can do the rest. (it&rsquo;s not that bad,
-                    you can take a look at it for us right?)
-                </p>
-                <p>
-                    Can you get our flag so we don&rsquo;t have to pay out?
-                </p>
-                <p>
-                    Mouseover the appropriate line for hints.  Highlight and right click to copy,
+                    Mouseover the appropriate line for hints. Highlight and right click to copy,
                     and right click on cursor to paste.
                 </p>
-
                 <div id="hints"></div>
 
-                <div id="virt">
-                    <iframe src="/pages/ctf/vm/vm.html?url=oct4.cfg&cpu=x86">Incompatible Browser D:</iframe>
-                </div>
+                <div id="virt"></div>
 
-                <table id="result" style="visibility=hidden">
-                    <tr>
-                        <td>
-                            <h1 id="status"></h1>
-                        </td>
-                        <td id="link">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2U40kd2YZ1z-lAdet2ltbJ9bmWXi3YtVB7yn4RoGj66pP7w/viewform">
-                                Record your Progress
-                            </a>
-                        </td>
-                    </tr>
-                </table>
+                <div id="challengeResult"></div>
 
-                <textarea id="flag" placeholder="Type flag here"></textarea>
-                <button onclick="submit();">Submit</button>
-                <h4><a href="/">Back to Home</a></h4>
+                <div id="flagSubmit"></div>
             </div>
         </div>
 
@@ -72,14 +42,17 @@
 
     </body>
 
-<!-- Challenge -->
-<script src="/pages/ctf/vm/oct4.js"></script>
+<!-- Utility -->
+<script src="/js/getParams.js"></script>
 
 <!-- Components --->
 <script src="/js/components/header.js"></script>
 <script src="/js/components/footer.js"></script>
+<script src="/js/components/taskDescription.js"></script>
 <script src="/js/components/hints.js"></script>
-<script>Hints("oct4")</script>
+<script src="/js/components/terminal.js"></script>
+<script src="/js/components/challengeResult.js"></script>
+<script src="/js/components/flagSubmit.js"></script>
 
 <!-- BootStrap --->
 <script src="/js/jquery.js"></script>

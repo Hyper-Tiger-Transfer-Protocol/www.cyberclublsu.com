@@ -5,7 +5,7 @@ function Remover(className){
 
 	for(let i = 0; i < links.length;){
 		var link = links[i];
-		if(link.className == className){
+		if(link.className.includes(className)){
 			list.removeChild(link);
 			continue;
 		}
