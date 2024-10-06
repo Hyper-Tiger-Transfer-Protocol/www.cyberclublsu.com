@@ -31,15 +31,8 @@
                 Mouseover the appropriate line for hints.  Highlight and right click to copy,
                 and right click on cursor to paste.
             </p>
-            
-            <div class="mouseover">
-                <table>
-                    <tr>
-                        <td>Hint (Mouseover)</td>
-                        <td class="content">Look in root</td>
-                    </tr>
-                </table>
-            </div>
+
+            <div id="hints"></div>
 
             <div id="virt">
                 <iframe src="/pages/ctf/vm/vm.html?url=task0.cfg&cpu=x86">Incompatible Browser D:</iframe>
@@ -61,7 +54,7 @@
             <textarea id="flag" placeholder="Type flag here"></textarea>
             <button onclick="submit();">Submit</button>
             <h4><a href="/">Back to Home</a></h4>
-        </div>
+        </>
     </div>
 
     <div id="footer"></div>
@@ -74,6 +67,8 @@
 <!-- Components --->
 <script src="/js/components/header.js"></script>
 <script src="/js/components/footer.js"></script>
+<script src="/js/components/hints.js"></script>
+<script>Hints("task0")</script>
 
 <!-- BootStrap --->
 <script src="/js/jquery.js"></script>

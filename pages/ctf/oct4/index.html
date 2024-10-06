@@ -43,46 +43,7 @@
                     and right click on cursor to paste.
                 </p>
 
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 1</td>
-                            <td class="content">use <code>command &</code> to background a command and <code>fg</code> to focus it</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 2</td>
-                            <td class="content">netcat :)</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 3</td>
-                            <td class="content">They're so l33t they use 1337th most common password</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 4</td>
-                            <td class="content">netcat can be finicky sometimes, try ending input with ^D^C</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 5</td>
-                            <td class="content">see above, use <a href="log">this</a> if you're super stuck (WARNING: MAJOR SPOILERS)</td>
-                        </tr>
-                    </table>
-                </div>
+                <div id="hints"></div>
 
                 <div id="virt">
                     <iframe src="/pages/ctf/vm/vm.html?url=oct4.cfg&cpu=x86">Incompatible Browser D:</iframe>
@@ -117,6 +78,8 @@
 <!-- Components --->
 <script src="/js/components/header.js"></script>
 <script src="/js/components/footer.js"></script>
+<script src="/js/components/hints.js"></script>
+<script>Hints("oct4")</script>
 
 <!-- BootStrap --->
 <script src="/js/jquery.js"></script>

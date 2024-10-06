@@ -34,22 +34,7 @@
                     and right click on cursor to paste.
                 </p>
 
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 1</td>
-                            <td class="content">Remember dotfiles?</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="mouseover">
-                    <table>
-                        <tr>
-                            <td>Hint 2</td>
-                            <td class="content">Less encrypted, more converted to a different base</td>
-                        </tr>
-                    </table>
-                </div>
+                <div id="hints"></div>
 
                 <div id="virt">
                     <iframe src="/pages/ctf/vm/vm.html?url=oct1.cfg&cpu=x86">Incompatible Browser D:</iframe>
@@ -85,6 +70,8 @@
 <!-- Components --->
 <script src="/js/components/header.js"></script>
 <script src="/js/components/footer.js"></script>
+<script src="/js/components/hints.js"></script>
+<script>Hints("oct1")</script>
 
 <!-- BootStrap --->
 <script src="/js/jquery.js"></script>

@@ -35,22 +35,7 @@
                 and right click on cursor to paste.
             </p>
 
-            <div class="mouseover">
-                <table>
-                    <tr>
-                        <td>Hint 1</td>
-                        <td class="content">dd if=/dev/vda</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="mouseover">
-                <table>
-                    <tr>
-                        <td>Hint 2</td>
-                        <td class="content">Only confusing if you're not Roman</td>
-                    </tr>
-                </table>
-            </div>
+            <div id="hints"></div>
 
             <div id="virt">
                 <iframe src="/pages/ctf/vm/vm.html?url=oct3.cfg&cpu=x86">Incompatible Browser D:</iframe>
@@ -85,6 +70,8 @@
 <!-- Components --->
 <script src="/js/components/header.js"></script>
 <script src="/js/components/footer.js"></script>
+<script src="/js/components/hints.js"></script>
+<script>Hints("oct3")</script>
 
 <!-- BootStrap --->
 <script src="/js/jquery.js"></script>

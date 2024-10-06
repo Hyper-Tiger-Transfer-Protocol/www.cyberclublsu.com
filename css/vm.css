@@ -1,8 +1,7 @@
 #virt {
 	width: 800px;
 	height: 720px;
-	overflow-y: auto;
-	overflow-x: auto;
+	overflow: hidden;
 	resize: none;
 	position: relative;
 	z-index: 2;
