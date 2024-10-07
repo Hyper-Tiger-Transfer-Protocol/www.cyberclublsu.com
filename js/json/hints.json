@@ -20,5 +20,10 @@
 		"They're so l33t they use 1337th most common password",
 		"netcat can be finicky sometimes, try ending input with ^D^C",
 		"see above, use <a href='/js/hintFiles/oct4_log'>this</a> if you're super stuck (WARNING: MAJOR SPOILERS)"
+	],
+	"oct5":[
+		"0-9a-z{|}",
+		"you know this is a key, so the first four characters
+must be 'ssl{'"
 	]
 }
