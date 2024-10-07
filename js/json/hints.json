@@ -23,6 +23,7 @@
 	],
 	"oct5":[
 		"0-9a-z{|}",
+		"it's encrypted with a Vigenere cipher",
 		"you know this is a key, so the first four charactersmust be 'ssl{'"
 	]
 }
