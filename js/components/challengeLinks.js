@@ -32,6 +32,13 @@ list.id = "links";
 	day4Link.innerHTML = "2024-10-04 | Halloween Day 4 - Ransomware!"
     day4.appendChild(day4Link);
 
+var day5 = document.createElement("li");
+day5.className = "halloween linux";
+var day5Link = document.createElement("a");
+day5Link.href = "/pages/ctf/challenge/?challenge=oct5";
+day5Link.innerHTML = "2024-10-07 | Halloween Day 5 - Lost Key!"
+day5.appendChild(day5Link);
+
 	//Intro Tasks
 	var task0 = document.createElement("li");
 	task0.className = "intro linux";
@@ -41,6 +48,7 @@ list.id = "links";
 	task0.appendChild(task0Link);
 
 // Halloween Tasks
+list.appendChild(day5);
 list.appendChild(day4);
 list.appendChild(day3);
 list.appendChild(day2);
