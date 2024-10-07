@@ -4,28 +4,32 @@
 		"lead":"Easier than snot",
 		"descriptions":[
 			"Use your knowledge of Linux to find the contents of 'flag'"
-		]
+		],
+		"hasTerminal": true
 	},
 	"oct1":{
 		"header":"Halloween Day 1 - Lost Flag - Tue, Oct 1, 2024",
 		"lead":"Our flag went missing!",
 		"descriptions":[
 			"While we were we sleeping an evil entity stole and encrypted our flag! Can you get it back?"
-		]
+		],
+		"hasTerminal": true
 	},
 	"oct2":{
 		"header":"Halloween Day 2 - Backup Fail - Wed, Oct 2, 2024",
 		"lead":"We lost out flag AND our backup",
 		"descriptions":[
 			"So after an super embarrassing flag heist we decided backups were maybe a good idea, but the evil entity came back and destroyed our backup program and the flag! Can you recover it please?"
-		]
+		],
+		"hasTerminal": true
 	},
 	"oct3":{
 		"header":"Halloween Day 3 - Badly Lost Flag - Thu, Oct 3, 2024",
 		"lead":"Our flag went missing (again)!",
 		"descriptions":[
 			"The evil entity stole our flag again, and this time they actually encrypted it super well and we have absolutely no idea where it went! (we even checked for a hidden file this time) Can you help us get it back again?"
-		]
+		],
+		"hasTerminal": true
 	},
 	"oct4":{
 		"header":"Halloween Day 4 - Ransomware! - Fri, Oct 4, 2024",
@@ -34,14 +38,16 @@
 			"Darn it! The evil entity encrypted our flag and wants tons of money for the password.",
 			"We figured out that <code>evil</code> is a shell script that reads a password on a TCP port, but then we got bored and figured you can do the rest. (it&rsquo;s not that bad, you can take a look at it for us right?)",
 			"Can you get our flag so we don&rsquo;t have to pay out?"
-		]
+		],
+		"hasTerminal": true
 	},
 	"oct5":{
 		"header":"Halloween Day 5 - Lost Key! - Mon, Oct 7, 2024",
 		"lead":"We encrypted our flag, but then we lost the key!",
 		"descriptions":[
-			"We tried to protect our flag from the evil entity., but then we lost our decryption key! Can you recover our flag?",
+			"We tried to protect our flag from the evil entity, but then we lost our decryption key! Can you recover our flag?",
 			"Ciphertext: <code>8fcgx|f}4w6{e</code>"
-		]
+		],
+		"hasTerminal": false
 	}
 }
