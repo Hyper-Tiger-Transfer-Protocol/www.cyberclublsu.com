@@ -37,7 +37,7 @@
 		]
 	},
 	"oct5":{
-		"header":"Halloween Day 5 - Lost Key! - Mon, Oct 7, 2024"
+		"header":"Halloween Day 5 - Lost Key! - Mon, Oct 7, 2024",
 		"lead":"We encrypted our flag, but then we lost the key!",
 		"descriptions":[
 			"We tried to protect our flag from the evil entity., but then we lost our decryption key! Can you recover our flag?",
