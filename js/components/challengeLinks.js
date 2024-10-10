@@ -37,7 +37,14 @@ list.id = "links";
     var day5Link = document.createElement("a");
     day5Link.href = "/pages/ctf/challenge/?challenge=oct5";
     day5Link.innerHTML = "2024-10-07 | Halloween Day 5 - Lost Key"
-    day5.appendChild(day5Link);
+day5.appendChild(day5Link);
+
+var day6 = document.createElement("li");
+day6.className = "halloween crypto";
+var day6Link = document.createElement("a");
+day6Link.href = "/pages/ctf/challenge/?challenge=oct6";
+day6Link.innerHTML = "2024-10-09 | Halloween Day 6 - ENIGMA"
+day6.appendChild(day6Link);
 
 	//Intro Tasks
 	var task0 = document.createElement("li");
@@ -48,6 +55,7 @@ list.id = "links";
 	task0.appendChild(task0Link);
 
 // Halloween Tasks
+list.appendChild(day6);
 list.appendChild(day5);
 list.appendChild(day4);
 list.appendChild(day3);

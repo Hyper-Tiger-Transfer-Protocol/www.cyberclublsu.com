@@ -49,5 +49,16 @@
 			"Ciphertext: <code>8fcgx|f}4w6{e</code>"
 		],
 		"hasTerminal": false
+	},
+	"oct6":{
+		"header":"Halloween Day 6 - ENIGMA - Wed, Oct 9, 2024",
+		"lead":"The evil entity sent us their name, but it's encrypted!",
+		"descriptions":[
+			"You're going to crack the Enigma cipher.  It will be hard, but you will prevail.",
+			"In the plaintext is the name of the entity.  The flag is in the form 'ssl{FIRSTLAST}'",
+			"Remember, have fun :D",
+			"<a href='/js/hintFiles/cipher.txt'>Ciphertext</a>"
+	    ],
+		"hasTerminal": true
 	}
 }

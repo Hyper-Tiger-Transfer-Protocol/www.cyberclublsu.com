@@ -24,6 +24,10 @@
 	"oct5":[
 		"alphabet: 0-9a-z{|}",
 		"it's encrypted with a Vigenere cipher",
-		"you know this is a key, so the first four charactersmust be 'ssl{'"
+		"you know this is a key, so the first four characters must be 'ssl{'"
+	],
+	"oct6":[
+		"Look for a Computerphile video with Prof. Mike Pound",
+		"The above video has an associated Github repo with his cracking code"
 	]
 }
